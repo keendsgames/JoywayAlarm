@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--日语-->
+<resources>
+    <string name="tag_list_about_app">ヘルプ</string>
+
+    <!-- settings view -->
+    <string name="settings_title">設定</string>
+    <string name="settings_phone_alert_time_length">携帯警報時間設定</string>
+    <string name="settings_safe_distance">監視範囲</string>
+    <string name="settings_select_ringing">サウンド選択</string>
+
+    <string name="settings_select_map">地図選択</string>
+    <string name="settings_select_gaode_map">高徳地図GAODE MAP(中国内陸部)</string>
+    <string name="settings_select_google_map">Googleマップ(中国内陸部以外)</string>
+    <string name="settings_delete_this_tag">紛失防止デバイスを削除</string>
+    <string name="settings_phone_alert_time_length_10_second">10秒</string>
+    <string name="settings_phone_alert_time_length_2_minute">2分</string>
+    <string name="settings_phone_alert_time_length_always">継続</string>
+    <string name="settings_max_history_count">最大履歴数</string>
+    <string name="delete_this_tag_confirm_dialog_title">削除“%s” ？</string>
+
+    <string name="alert_stopAlarm_body">「確認」をタップし、サウンドをオフにします</string>
+    <string name="alert_stopAlarm_title_outRange">%s 安全距離を超えています</string>
+    <string name="alert_stopAlarm_title_tagWantFindPhone">%s ただ今携帯電話を探しています</string>
+    <string name="alert_stopAlarm_title_tagLostConnection">%s 携帯電話と接続していません</string>
+
+    <!-- 我的详细列表 -->
+
+    <string name="tag_detail_connection_state">接続状態</string>
+    <string name="tag_detail_signal_strength">電波状況</string>
+    <string name="tag_detail_distance">概ね距離</string>
+    <string name="tag_detail_connection_state_yes">はい</string>
+    <string name="tag_detail_connection_state_no">いいえ</string>
+    <string name="tag_detail_distance_not_avaible">無し</string>
+    <string name="tag_detail_call_tag">呼び出し</string>
+    <string name="tag_detail_stop_call_tag">呼び出し終了</string>
+    <string name="tag_detail_lost_sos">紛失</string>
+    <string name="tag_detail_location_records">記録</string>
+    <string name="tag_detail_turn_off_tag">電源オフ</string>
+    <string name="have_turned_off_tag_notice">該当紛失防止デバイスが確認できません。デバイスの電源を入れて下さい。</string>
+
+
+    <!-- 录音界面 -->
+    <string name="record_audio_start">タップして録音開始</string>
+    <string name="ok">確認</string>
+    <string name="cancel">取り消し</string>
+    <string name="save">保存</string>
+    <string name="record_audio_audio_list">録音リスト</string>
+
+    <!-- 录音界面 -->
+    <string name="record_audio_activity_title">録音</string>
+    <string name="play_audio_play">スタート</string>
+
+    <!-- 设备信息 列表 -->
+    <string name="tag_list_item_disconnected_state_text">接続されていません</string>
+    <string name="tag_list_item_disconnecting_state_text">切断中</string>
+    <string name="tag_list_item_connected_state_text">接続済み</string>
+    <string name="tag_list_item_connecting_state_text">接続中</string>
+    <string name="tag_list_enable_locate">位置特定機能を有効にします（より多くの電力を消費します）。</string>
+
+    <!-- 搜索界面 -->
+
+    <string name="add_tag_notice_turn_bluetooth_on_part_01">Bluetoothをオンにして下さい</string>
+    <string name="add_tag_notice_turn_bluetooth_on_part_02">オン</string>
+    <string name="add_tag_notice_click_search_button_to_start">「検索」をタップして下さい</string>
+    <string name="add_tag_btn_search_start">検索</string>
+    <string name="add_tag_btn_search_stop">停止</string>
+    <string name="add_tag_notice_search_result_part_01">検索済み</string>
+    <string name="add_tag_notice_search_result_part_02">個紛失防止デバイス</string>
+    <string name="add_tag_notice_turn_on_tag">紛失防止デバイスのブルーライトが点滅するするまでボタンを押し続けて下さい。</string>
+    <string name="meter">m</string>
+    <string name="add_tag_tag_is_added">正常に追加されました</string>
+
+    <!-- 地图界面 -->
+    <string name="lost_history_tab_title_map">地図</string>
+    <string name="lost_history_tab_title_list">リスト</string>
+    <string name="lost_history_activity_title">紛失場所</string>
+
+    <!-- 模式 -->
+
+    <string name="tag_button_function_take_picture">カメラ</string>
+    <string name="tag_button_function_find_phone">携帯電話を探す</string>
+    <string name="tag_button_function_record_audio">録音</string>
+    <string name="tag_button_function_record_video">録画</string>
+    <string name="select_tag_button_function_dialog_title">紛失防止デバイスボタン機能</string>
+    <string name="add_tags">追加</string>
+    <string name="add_finished">完成</string>
+    <string name="change_devices_name">デバイスの名称を変更して下さい</string>
+    <string name="RunInBackground">バックグラウンド実行中</string>
+    <string name="tag_is_deleted">%s 削除済み</string>
+    <string name="all_tags_are_deleted">全ての紛失防止デバイスを削除済み</string>
+    <string name="tag_button_function_upload_phone_location">居場所アップロード</string>
+    <string name="exit_app">アプリ終了</string>
+    <string name="exit_app_confirm_dialog_title">ご用命は？</string>
+    <string name="bluetooth_permission">* Bluetoothの許可</string>
+    <string name="camera_is_occupied">カメラが使用中です。しばらくしてからもう一度お試しください</string>
+    <string name="camera_permission">*カメラの許可</string>
+    <string name="history_activity_title">ロケーションレコード</string>
+    <string name="read_phone_state_permission">*電話状態の読み取り許可</string>
+    <string name="read_write_permisson">*読み取り/書き込み権限</string>
+    <string name="need_set_permissions_main_hint">許可なし</string>
+    <string name="history_table_column_datetime">日付時刻</string>
+    <string name="history_table_column_address">住所</string>
+    <string name="mapinfowindow_losttime">失われた時間</string>
+    <string name="mapinfowindow_lostaddress">失われた場所</string>
+    <string name="record_audio_permission">*録音許可</string>
+    <string name="rename_faild">名前の変更に失敗しました！</string>
+    <string name="rename_name_empty">名前は空にできません</string>
+    <string name="showmessage_dialog_ok_text">OK</string>
+    <string name="tag_not_connected">タグが接続されていません！</string>
+    <string name="turnoff_detailed_msg">オフにしますか？</string>
+    <string name="turnoff_main_msg">電源を切る</string>
+    <string name="turnoff_this_tag_confirm_dialog_title">切る%s？</string>
+    <string name="whether_delete_data">対応するデータを削除するかどうか？</string>
+    <string name="your_position">あなたの現在の位置</string>
+    <string name="location_permission_denied">ロケーション許可が拒否されました！</string>
+    <string name="location_permission">*場所の許可</string>
+    <string name="failed_get_location_information">電話の位置情報を取得できませんでした！</string>
+    <string name="failed_get_current_location">現在地を取得できませんでした</string>
+    <string name="dialog_modify_head_photo_album_text">フォトアルバム</string>
+    <string name="dialog_modify_head_camera_text">写真を撮ってアバターを変更</string>
+    <string name="current_positon">現在位置：</string>
+    <string name="can_not_use_photo_album">アルバムを使用できません！ 設定するために[設定]ページに移動するかどうか</string>
+    <string name="can_not_use_map">マップは利用できません！ 設定するために[設定]ページに移動するかどうか</string>
+    <string name="can_not_use_camera">カメラの許可は与えられません！ 設定するために[設定]ページに移動するかどうか</string>
+    <string name="camera_permission_denied">カメラの権限は利用できません！</string>
+    <string name="album_permission_denied">フォトアルバムの許可が拒否されました。</string>
+    <string name="tag_list_phone_alert_disabled">安全な範囲から抜け出すための電話アラートは無効です。</string>
+    <string name="tag_list_phone_alert_enabled">安全範囲から抜け出すための電話アラートは有効です。</string>
+    <string name="tag_list_far">遠い</string>
+    <string name="tag_list_search_hint">" タグをフィルタリングするための入力名"</string>
+    <string name="app_name">Joyway Alarm</string>
+    <string name="camera_click_tag_button_to_take_pictures">写真を撮るにはトラッカーボタンをクリックしてください。</string>
+    <string name="camera_new_picture_is_saved_into_photo_album">新しい写真がフォトアルバムに保存されます。</string>
+    <string name="help_question_1">1、デバイスの電源を入れる方法？</string>
+    <string name="help_answer_1">デバイスのボタンを3秒以上押し続けます。LEDライトが3〜4回点滅してピッピッピッとブザーが鳴れば、正常にオンになっていることを意味します。</string>
+    <string name="help_question_2">2、デバイスがオンになっているかどうかを知る方法？</string>
+    <string name="help_answer_2">デバイスのボタンをクリックします。LEDライトが1〜2回点滅した場合、デバイスはすでにオンになっています。</string>
+    <string name="help_question_3">3、デバイスを正常に検索または接続できないのはなぜですか？</string>
+    <string name="help_answer_3">Bluetoothと位置情報（GPS）の両方をオンにしてください。\n
+(1)Bluetoothが正しく機能していません。\n
+→ この場合はBluetoothをONにしてください。\n
+(2)Bluetooth設定でデバイスをすでにペアリングしています。\n
+→ この場合はペアリングを１度解除してください。\n
+(3)デバイスとスマホが離れすぎている。\n
+→ アプリがデバイスを検索している間は、デバイスを携帯電話に近づけたままにしてください。</string>
+    <string name="help_question_4">4、なぜアプリは非常に多くの権限を必要としますか？</string>
+    <string name="help_answer_4">(1)Bluetooth：アプリはBluetoothを使用してデバイスに接続し、常に接続を維持しています。またブルートゥースのビーコン信号の強度で距離を計算します。\n
+(2)場所：アプリは、デバイスを紛失/発見した場所を記録します。\n
+(3)カメラ：貴重品に取り付けられているデバイスの写真を撮って、そのデバイスの写真に設定できます。\n
+(4)フォトアルバム：フォトアルバムから写真を選択して、デバイスの写真に設定できます。</string>
+    <string name="help_question_5">5、アプリは常にバックグラウンドで位置を計測するため、多くの電力が必要ですか？</string>
+    <string name="help_answer_5">はい、ある程度の電力がかかりますが、GPSを使用して検索している間、Androidシステムではバックグラウンドで駆動するようにロジックを改善しました。\n
+(1)貴重品が安全な状態にあることが確実な場合はアプリを閉じることができます。また、アプリを起動してから携帯電話のGPS位置特定サービスをオフにしてエネルギーを節約すると、アプリは紛失/発見した場所を記録しませんが、トラッカーがセットした距離を超えると警告を発します。</string>
+    <string name="help_question_6">6、貴重品を保護するために3つのタグを使用していますが、そのうちの1つだけのアラームをオフにできますか？</string>
+    <string name="help_answer_6">はい、デバイスリストのスイッチボタンをクリックして、スマホのアラームをオン/オフできます。このアラームは、タグが事前設定された距離よりも遠すぎるか、Bluetooth接続が切断された場合に働きます。</string>
+    <string name="help_question_7">7、距離が事前設定された範囲を超えた場合、またはBluetooth接続が切断された場合でも、アプリがアラームを発しないのはなぜですか？</string>
+    <string name="help_answer_7">アプリに必要なすべての権限に同意してください。\n
+(1)設定でバックグラウンドで実行されているアプリを有効にします。\n
+(2)XiaoMiまたはRedMi電話の場合はMIUIシステムで、アプリの「バッテリーセーバー」オプションを見つけ、「MIUIバッテリーセーバー」から「制限なし」に変更します。</string>
+    <string name="help_question_8">8、アプリの[呼出]ボタンをクリックしてもデバイスからビープ音が鳴らないのはなぜですか？</string>
+    <string name="help_answer_8">アプリからコマンドを受信するまでデバイスはビープ音を鳴らしません。そのため、デバイスからより強力なBluetooth信号を取得出来る位置に移動する必要があります。アプリは自動的に接続し、コマンドを送信してビープ音を鳴らします。</string>
+
+
+
+    <string name="can_not_connect">接続できません！</string>
+    <string name="notification_sub_title">忘れないで、迷わず、見つけてください！</string>
+    <string name="alert_stopAlarm_title_tagFound">%s が見つかりました</string>
+
+</resources>

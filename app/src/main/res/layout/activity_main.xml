@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:id="@+id/menu"
+        android:weightSum="1">
+
+        <TextView
+            android:text="Tag Mac"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:id="@+id/Keen"
+            android:textColor="@android:color/holo_blue_bright"
+            android:layout_weight="0.59" />
+
+        <Button
+            android:layout_height="match_parent"
+            android:id="@+id/button1"
+            android:text="Not Connected"
+            android:layout_width="240dp"
+            android:layout_weight="0.30" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:weightSum="1"
+        android:id="@+id/player">
+
+
+        <EditText
+            android:text="CD:FB:08:65:D1:C9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/score1"
+            android:layout_weight="1"
+            android:textSize="24dp"
+            android:inputType="text"
+            android:textColor="@android:color/black"   />
+
+
+    </LinearLayout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:weightSum="1">
+        <ImageView
+            android:id="@+id/tagimage"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:src="@drawable/tagnormal"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:weightSum="1"
+        android:id="@+id/promptln">
+
+        <TextView
+            android:text="Instructions:"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:id="@+id/prompt"
+            android:textSize="24sp"
+            android:textColor="@android:color/holo_orange_light" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/question">
+
+        <TextView
+            android:text="Alert: Double short clicks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mquest1a"
+            android:textSize="24sp"
+            android:textColor="@android:color/holo_green_dark" />
+
+        <TextView
+            android:text="Reset: Long clicks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mquest1b"
+            android:textSize="24sp"
+            android:textColor="@android:color/holo_green_dark" />
+        <TextView
+            android:text="www.keendesigns.webs.com"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/keen1"
+            android:textSize="16sp"
+            android:textColor="@android:color/holo_blue_light" />
+        <TextView
+            android:text="Panic Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/keen2"
+            android:textSize="16sp"
+            android:textColor="@android:color/holo_blue_light" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

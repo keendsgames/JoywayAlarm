@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--法语-->
+<resources>
+
+    <string name="RunInBackground">Fonctionner en arrière</string>
+
+    <string name="alert_stopAlarm_body">Cliquez sur OK pour arrêter la sonnerie</string>
+    <string name="alert_stopAlarm_title_outRange">%s hors de portée sûre</string>
+    <string name="alert_stopAlarm_title_tagWantFindPhone">%s souhaite trouver votre téléphone</string>
+    <string name="alert_stopAlarm_title_tagLostConnection">%s de connexions perdues</string>
+
+    <string name="tag_list_about_app">Aide</string>
+
+    <!-- settings view -->
+    <string name="settings_title">Réglages</string>
+    <string name="settings_phone_alert_time_length">Heure d\'alarme du téléphone</string>
+    <string name="settings_safe_distance">Distance de sécurité</string>
+    <string name="settings_select_ringing">Sonneries</string>
+
+    <string name="settings_select_map">Carte</string>
+    <string name="settings_select_gaode_map">Carte Gaode</string>
+    <string name="settings_select_google_map">Carte Google</string>
+    <string name="settings_delete_this_tag">Supprimer cet appareil</string>
+    <string name="settings_phone_alert_time_length_10_second">10s</string>
+    <string name="settings_phone_alert_time_length_2_minute">2min</string>
+    <string name="settings_phone_alert_time_length_always">Toujours</string>
+    <string name="delete_this_tag_confirm_dialog_title">Supprimer "%s" ?</string>
+
+    <!-- 我的详细列表 -->
+
+    <string name="tag_detail_connection_state">Connecté</string>
+    <string name="tag_detail_signal_strength">Signal</string>
+    <string name="tag_detail_distance">Distance</string>
+    <string name="tag_detail_connection_state_yes">OUI</string>
+    <string name="tag_detail_connection_state_no">NON</string>
+    <string name="tag_detail_distance_not_avaible">N/A</string>
+    <string name="tag_detail_call_tag">Appel</string>
+    <string name="tag_detail_turn_off_tag">Éteint</string>
+    <string name="have_turned_off_tag_notice">L’appareil est hors tensions maintenant. Vous pouvez appuyer sur le bouton pour l’allumer.</string>
+
+    <!-- 录音界面 -->
+    <string name="record_audio_start">Démarrer l’enregistrement vocal</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuler</string>
+    <string name="save">Sauvegarder</string>
+    <string name="record_audio_audio_list">Enregistrements audio</string>
+
+    <!-- 录音界面 -->
+    <string name="record_audio_activity_title">Enregistrer</string>
+    <string name="play_audio_play">Lecture</string>
+
+    <!-- 设备信息 列表 -->
+    <string name="tag_list_item_disconnected_state_text">Déconnecté</string>
+    <string name="tag_list_item_connected_state_text">Connecté</string>
+    <string name="tag_list_enable_locate">Activez la fonction de localisation (cela consommera plus d\'énergie).</string>
+
+    <!-- 搜索界面 -->
+
+    <string name="add_tag_notice_turn_bluetooth_on_part_01">Activer le bluetooth</string>
+    <string name="add_tag_notice_turn_bluetooth_on_part_02">ON</string>
+    <string name="add_tag_notice_click_search_button_to_start">Cliquez sur le bouton de recherche pour démarrer</string>
+    <string name="add_tag_btn_search_start">Recherche</string>
+    <string name="add_tag_btn_search_stop">Arrêter</string>
+    <string name="add_tag_notice_search_result_part_01">Cherché</string>
+    <string name="add_tag_notice_search_result_part_02">Appareils</string>
+    <string name="add_tag_notice_turn_on_tag">Cliquez sur le bouton de l’appareil pour l’activer</string>
+    <string name="meter">m</string>
+    <string name="add_tag_tag_is_added">Appareil ajouté</string>
+
+    <!-- 地图界面 -->
+    <string name="lost_history_tab_title_map">Carte</string>
+    <string name="lost_history_activity_title">Localité perdue</string>
+
+    <!-- 模式 -->
+
+    <string name="tag_button_function_take_picture">Prendre une photo</string>
+    <string name="tag_button_function_find_phone">Trouver le téléphone</string>
+    <string name="tag_button_function_record_audio">Enregistrer audio</string>
+    <string name="tag_button_function_record_video">Enregistrer vidéo</string>
+    <string name="select_tag_button_function_dialog_title">Fonction pour le bouton de l’appareil</string>
+    <string name="add_tags">Ajouter</string>
+    <string name="add_finished">Terminé!</string>
+    <string name="change_devices_name">Changer le nom de l’appareil</string>
+    <string name="tag_is_deleted">%s est supprimé!</string>
+    <string name="all_tags_are_deleted">Tous les appareils sont supprimés.</string>
+    <string name="tag_button_function_upload_phone_location">Télécharger la localité</string>
+    <string name="exit_app_confirm_dialog_title">Vous désirez ?</string>
+    <string name="exit_app">Quitter l’application</string>
+    <string name="tag_list_item_connecting_state_text">de liaison</string>
+    <string name="tag_list_item_disconnecting_state_text">Déconnexion</string>
+    <string name="tag_detail_lost_sos">Perdu</string>
+    <string name="lost_history_tab_title_list">Liste</string>
+    <string name="settings_max_history_count">Nombre maximum d\'histoires</string>
+    <string name="tag_detail_location_records">enregistrements</string>
+    <string name="rename_name_empty">Le nom ne peut pas être vide</string>
+    <string name="rename_faild">Impossible de modifier le nom!</string>
+    <string name="showmessage_dialog_ok_text">D\'accord</string>
+    <string name="tag_detail_stop_call_tag">arrête d\'appeler</string>
+    <string name="turnoff_this_tag_confirm_dialog_title">désactiver %s?</string>
+    <string name="history_activity_title">Histoire</string>
+    <string name="history_table_column_address">Adresse</string>
+    <string name="history_table_column_datetime">Date Heure</string>
+    <string name="dialog_modify_head_camera_text">Prendre une photo pour changer d\'avatar</string>
+    <string name="dialog_modify_head_photo_album_text">Album photo</string>
+    <string name="current_positon">Position actuelle:</string>
+    <string name="tag_list_phone_alert_disabled">L\'alerte téléphonique pour sortir de la plage de sécurité est désactivée.</string>
+    <string name="tag_list_phone_alert_enabled">L\'alerte téléphonique pour sortir de la plage de sécurité est activée.</string>
+    <string name="tag_not_connected">Le tag n\'est pas connecté!</string>
+    <string name="tag_list_far">Loin</string>
+    <string name="turnoff_detailed_msg">Êtes-vous sûr de désactiver ce tracker?</string>
+    <string name="turnoff_main_msg">Éteindre</string>
+    <string name="whether_delete_data">Supprimer les données de ce tracker?</string>
+    <string name="your_position">Ta position</string>
+    <string name="tag_list_search_hint">" Entrez le nom pour filtrer les balises"</string>
+    <string name="app_name">Joyway Alarm</string>
+    <string name="camera_click_tag_button_to_take_pictures">Cliquez sur le bouton tracker pour prendre des photos.</string>
+    <string name="camera_new_picture_is_saved_into_photo_album">Une nouvelle photo est enregistrée dans l\'album photo.</string>
+    <string name="help_answer_1">* Maintenez le bouton dans l\'appareil pendant plus de 3 secondes, si la lumière LED clignote 3 à 4 fois, cela signifie qu\'elle est allumée avec succès.</string>
+    <string name="help_answer_2">* Cliquez sur le bouton dans l\'appareil, si la lumière LED a clignoté 1 à 2 fois, l\'appareil est déjà allumé.</string>
+    <string name="help_answer_3">* Veuillez activer le Bluetooth et la localisation (GPS). * Bluetooth ne fonctionne pas correctement, veuillez redémarrer Bluetooth. * Vous avez déjà jumelé l\'appareil dans les paramètres Bluetooth, veuillez le dissocier. * L\'appareil est trop loin du téléphone, veuillez le placer près du téléphone pendant que l\'application recherche l\'appareil.</string>
+    <string name="help_answer_4">* Bluetooth: l\'application utilise Bluetooth pour connecter l\'appareil et garder la connexion tout le temps. Il calcule la distance par bluetooth. * Emplacement: l\'application enregistrera où vous avez perdu / trouvé votre appareil. * Appareil photo: vous pouvez prendre une photo de votre appareil qui est attaché sur vos objets de valeur, pour définir l\'avatar de cet appareil. * Album photo: vous pouvez sélectionner une photo de l\'album photo pour définir l\'avatar de l\'appareil.</string>
+    <string name="help_answer_5">* Oui, cela coûte de l\'énergie, mais le système Android a amélioré sa logique en arrière-plan pendant que nous utilisons le GPS pour le localiser. * Vous pouvez fermer l\'application si vous êtes sûr que vos objets de valeur sont en bon état.Ou vous pouvez démarrer l\'application, puis désactiver le service de localisation GPS de votre téléphone pour économiser de l\'énergie, l\'application n\'enregistrera pas l\'emplacement perdu / trouvé mais avertira lorsque le tracker dépasse distance prédéfinie.</string>
+    <string name="help_answer_6">* Oui, vous pouvez cliquer sur le bouton de commutation dans la liste des appareils pour activer / désactiver l\'alerte de son téléphone. Cette alerte est déclenchée lorsque la balise est trop éloignée de la distance prédéfinie ou lorsque la connexion Bluetooth est interrompue.</string>
+    <string name="help_answer_7">* Veuillez accepter toutes les autorisations requises par l\'application. * Activer l\'application s\'exécutant en arrière-plan dans les paramètres. * Dans le système MIUI pour téléphone XiaoMi ou RedMi, veuillez trouver l\'option \'Économiseur de batterie\' de l\'application, passer à \'Aucune restriction\' dans \'Économiseur de batterie MIUI\'.</string>
+    <string name="help_answer_8">* L\'appareil n\'émet aucun bip tant qu\'il n\'a pas reçu de commande de l\'application. Vous devez donc faire le tour pour obtenir un signal Bluetooth plus fort de l\'appareil, et l\'application se connectera automatiquement et enverra une commande pour le faire bip.</string>
+    <string name="help_question_1">1, comment allumer l\'appareil?</string>
+    <string name="help_question_2">2, comment savoir si l\'appareil est allumé?</string>
+    <string name="help_question_3">3, pourquoi ne peut-on pas rechercher ou connecter l\'appareil avec succès?</string>
+    <string name="help_question_4">4, Pourquoi l\'application a-t-elle besoin de tant d\'autorisations?</string>
+    <string name="help_question_5">5, l\'application coûte-t-elle beaucoup d\'énergie car elle trouve toujours la position en arrière-plan?</string>
+    <string name="help_question_6">6, j\'utilise 3 balises pour protéger mes objets de valeur. Puis-je désactiver l\'alerte pour un seul d\'entre eux?</string>
+    <string name="help_question_7">7, pourquoi l\'application n\'alerte pas lorsque la distance dépasse la plage prédéfinie ou même la connexion Bluetooth est rompue?</string>
+    <string name="help_question_8">8, pourquoi l\'appareil n\'émet pas de bip après avoir cliqué sur le bouton «Appeler» dans l\'application?</string>
+    <string name="album_permission_denied">L\'autorisation de l\'album photo est refusée.</string>
+    <string name="bluetooth_permission">* Autorisation Bluetooth</string>
+    <string name="camera_is_occupied">La caméra du téléphone est occupée, veuillez réessayer plus tard</string>
+    <string name="camera_permission">* Autorisation de caméra</string>
+    <string name="camera_permission_denied">Les autorisations de caméra sont refusées!</string>
+    <string name="failed_get_location_information">Impossible d\'obtenir les informations de localisation du téléphone!</string>
+    <string name="can_not_connect">Peut pas se connecter!</string>
+    <string name="notification_sub_title">N\'oubliez pas, pas perdu, trouvez-le!</string>
+    <string name="alert_stopAlarm_title_tagFound">%s est trouvé</string>
+
+
+</resources>

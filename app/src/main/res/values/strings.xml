@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Joyway Alarm</string>
+
+    <string name="RunInBackground">Run in background</string>
+
+    <string name="alert_stopAlarm_body">Click OK to Stop Alert</string>
+    <string name="alert_stopAlarm_title_outRange">%s out of safe range</string>
+    <string name="alert_stopAlarm_title_tagWantFindPhone">%s want to find your phone</string>
+    <string name="alert_stopAlarm_title_tagLostConnection">%s lost connection</string>
+    <string name="alert_stopAlarm_title_tagFound">%s is found</string>
+
+    <!-- settings view -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_phone_alert_time_length">Phone Alarm Time</string>
+    <string name="settings_safe_distance">Safe Distance</string>
+    <string name="settings_max_history_count">Max History Count</string>
+    <string name="settings_select_ringing">Rings</string>
+
+    <string name="settings_select_map">Map</string>
+    <string name="settings_select_gaode_map">Gaode Map</string>
+    <string name="settings_select_google_map">Google Map</string>
+    <string name="settings_delete_this_tag">Delete</string>
+    <string name="settings_phone_alert_time_length_10_second">10s</string>
+    <string name="settings_phone_alert_time_length_2_minute">2min</string>
+    <string name="settings_phone_alert_time_length_always">Always</string>
+	<string name="delete_this_tag_confirm_dialog_title">Delete "%s" ?</string>
+    <string name="turnoff_this_tag_confirm_dialog_title">Turn off "%s" ?</string>
+
+    <!-- 我的详细列表 -->
+
+    <string name="tag_detail_call_tag">Call Tag</string>
+    <string name="tag_detail_stop_call_tag">Stop Call</string>
+    <string name="tag_detail_location_records">History</string>
+    <string name="tag_detail_turn_off_tag">Power Off</string>
+    <string name="have_turned_off_tag_notice">Tag is power off now. You can press tag button to turn it on.</string>
+    <string name="rename_name_empty">The name cannot be empty</string>
+    <string name="rename_faild">Failed to modify name !</string>
+    <string name="tag_not_connected">Tag is not connected !</string>
+    <string name="failed_get_location_information">Failed to get phone location information !</string>
+    <string name="current_positon">Current Position: </string>
+    
+
+
+    <!--丢失记录页-->
+    <string name="history_activity_title">History</string>
+    <string name="history_table_column_datetime">Date Time</string>
+    <string name="history_table_column_address">Address</string>
+
+    <!-- 录音界面 -->
+    <string name="record_audio_start">Start voice record</string>
+    <string name="record_audio_audio_list">Audios</string>
+    <string name="record_audio_activity_title">Record</string>
+    <string name="play_audio_play">Play</string>
+
+    <!--common 通用-->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
+    <!-- 设备信息 列表 -->
+    <string name="tag_list_phone_alert_enabled">Phone alert for getting out of safe range is Enabled.</string>
+    <string name="tag_list_phone_alert_disabled">Phone alert for getting out of safe range is Disabled.</string>
+    <string name="tag_list_item_disconnected_state_text">Disconnected</string>
+    <string name="tag_list_item_connected_state_text">Connected</string>
+    <string name="tag_list_far">Far</string>
+    <string name="tag_list_search_hint"> Input name to filter tags"</string>
+
+    <!-- 搜索界面 -->
+    <string name="add_tag_notice_turn_bluetooth_on_part_01">Turn bluetooth</string>
+    <string name="add_tag_notice_turn_bluetooth_on_part_02">ON</string>
+    <string name="add_tag_notice_click_search_button_to_start">Click search button to start</string>
+    <string name="add_tag_btn_search_start">Search</string>
+    <string name="add_tag_btn_search_stop">Stop</string>
+    <string name="add_tag_notice_search_result_part_01">Searched</string>
+    <string name="add_tag_notice_search_result_part_02">Tags</string>
+    <string name="add_tag_notice_turn_on_tag">Click button in tag device to turn it on</string>
+    <string name="meter">m</string>
+    <string name="add_tag_tag_is_added">Tag added</string>
+
+    <!-- 地图界面 -->
+    <string name="lost_history_tab_title_map">Map</string>
+    <string name="lost_history_tab_title_list">List</string>
+    <string name="lost_history_activity_title">Lost location</string>
+
+    <!-- 模式 -->
+
+    <string name="tag_button_function_take_picture">Take Photo</string>
+    <string name="tag_button_function_find_phone">Find Phone</string>
+    <string name="tag_button_function_record_audio">Record Audio</string>
+    <string name="tag_button_function_record_video">Record Video</string>
+    <string name="select_tag_button_function_dialog_title">Function for tag button</string>
+
+
+    <string name="add_tags">Add</string>
+    <string name="add_finished">Done</string>
+    <string name="change_devices_name">Change tag name</string>
+    <string name="tag_is_deleted">%s is deleted !</string>
+    <string name="tag_button_function_upload_phone_location">Upload location</string>
+    <string name="exit_app_confirm_dialog_title">You want to ?</string>
+    <string name="exit_app">Exit app</string>
+
+    <!--主列表窗口-->
+    <string name="tag_list_item_connecting_state_text">Connecting...</string>
+    <string name="tag_list_item_disconnecting_state_text">Disconnecting...</string>
+    <string name="tag_list_enable_locate">Enable locate feature(It will consume more power).</string>
+
+    <!--2019.1.9 权限优化新增 目前只用了中文本和英文版-->
+    <string name="showmessage_dialog_ok_text">OK</string>
+    <string name="location_permission">* Location permission</string>
+    <string name="read_write_permisson">* Read-Write permission</string>
+    <string name="read_phone_state_permission">* Read phone state permission</string>
+    <string name="record_audio_permission">* Record audio permission</string>
+    <string name="camera_permission">* Camera permission</string>
+    <string name="bluetooth_permission">* Bluetooth permission</string>
+    <string name="need_set_permissions_main_hint">No Permissions</string>
+    <string name="can_not_use_camera">Camera permissions are not granted!  Whether to go to the Settings page to set?</string>
+    <string name="can_not_use_photo_album">Unable to use album!  Whether to go to the Settings page to set?</string>
+    <string name="can_not_use_map">Maps will not be available!  Whether to go to the Settings page to set?</string>
+    <string name="location_permission_denied">Location permission denied!</string>
+    <string name="camera_permission_denied">Camera permissions are denied!</string>
+    <string name="dialog_modify_head_photo_album_text">Photo Album</string>
+    <string name="dialog_modify_head_camera_text">Take picture to change avatar</string>
+    <string name="album_permission_denied">Photo album permission is denied.</string>
+    <string name="camera_is_occupied">The phone camera is occupied, please try again later</string>
+    <string name="your_position">"Your Position "</string>
+
+    <string name="failed_get_current_location">Failed to get current location</string>
+
+    <string name="mapinfowindow_losttime">Lost time</string>
+
+    <string name="mapinfowindow_lostaddress">Lost place</string>
+
+    <string name="turnoff_main_msg">Power off</string>
+    <string name="whether_delete_data">Delete datas of this tracker?</string>
+
+
+    <item type="id" name="tag_first" />
+    <item type="id" name="tag_second" />
+    <string name="tag_list_about_app">Help</string>
+    <string name="turnoff_detailed_msg">Are you sure to turn off this tracker?</string>
+    <string name="tag_detail_signal_strength">Signal</string>
+    <string name="tag_detail_lost_sos">Lost</string>
+    <string name="tag_detail_distance_not_avaible">N/A</string>
+    <string name="tag_detail_distance">Distance</string>
+    <string name="tag_detail_connection_state_yes">Yes</string>
+    <string name="tag_detail_connection_state_no">No</string>
+    <string name="tag_detail_connection_state">Connection</string>
+
+
+    <!--Camera自拍-->
+    <string name="camera_click_tag_button_to_take_pictures">Click tracker button to take pictures.</string>
+    <string name="camera_new_picture_is_saved_into_photo_album">A new picture is saved into photo album.</string>
+
+    <!--Q & A-->
+    <string name="help_question_1">1,How to turn on the device?</string>
+    <string name="help_answer_1">* Hold the button in device for over 3 seconds, if the led light is flashing for 3~4 times, that means it is turned on successfully.</string>
+    <string name="help_question_2">2,How to know whether the device is turned on?</string>
+    <string name="help_answer_2">* Click the button in device, if the led light flashed for 1~2 times, the device is already turned on.</string>
+    <string name="help_question_3">3,Why can not search or connect device successfully?</string>
+    <string name="help_answer_3">* Please turn on both Bluetooth and Location(GPS). * Bluetooth is not working properly, please restart bluetooth. * You have already pair the device in Bluetooth settings, please unpair it. * Device is too far from the phone, please put it close to the phone while app is searching device.</string>
+    <string name="help_question_4">4,Why the app need so many permissions?</string>
+    <string name="help_answer_4">* Bluetooth: App is using bluetooth to connect device and keep connection all the time. It calculate distance by bluetooth. * Location: App will record where you lost/found your device. * Camera: You can take photo of your device which is attached on your valuables, to set the avatar of that device. * Photo album: You can select a photo from photo album to set the device avatar.</string>
+    <string name="help_question_5">5,Does the app cost much power since it always locate position in background?</string>
+    <string name="help_answer_5">* Yes, it cost some power, but Android system has improve its logic in background while we are using gps to locate. * You can close app if you are sure your valuables are in safe condition.Or you can start app, then turn off GPS locate service of your phone to save energy, the app will not record lost/found location but will alert when tracker exceeds preset distance.</string>
+    <string name="help_question_6">6,I am using 3 tags to protect my valuables. Can I turn off alert for only one of them?</string>
+    <string name="help_answer_6">* Yes, you can click switch button in the device list, to turn on/off its phone\'s alert. This alert is triggered when tag is too far than preset distance or bluetooth connection is broken.</string>
+    <string name="help_question_7">7,Why the app does not alert when distance exceeds preset range or even the bluetooth connection is broken? </string>
+    <string name="help_answer_7">* Please accept all permissions required by the app. * Enable app running in background in settings. * In MIUI system for XiaoMi or RedMi phone, please find the \'Battery saver\' option of app, change to \'No restrictions\' from \'MIUI battery saver\'.</string>
+    <string name="help_question_8">8,Why the device does not beep after I click \'Call\' button in app? </string>
+    <string name="help_answer_8">* The device will not beep until it receives command from app. So you need to go around to get stronger bluetooth signal from the device,and app will automatically connect and send command to make it beeping.</string>
+    <string name="all_tags_are_deleted">All trackers are deleted.</string>
+    <string name="can_not_connect">Can not connect!</string>
+    <string name="notification_sub_title">No forget, no lost, find it!</string>
+</resources>
+

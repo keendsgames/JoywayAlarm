@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--APP常用颜色-->
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="color_334145">#334145</color>
+    <color name="color_FFFFFF">#FFFFFF</color>
+    <color name="color_CCCCCC">#CCCCCC</color>
+    <color name="color_D3D3D3">#D3D3D3</color>
+    <color name="color_848484">#848484</color>
+    <color name="color_3C8DDA">#3C8DDA</color>
+    <color name="color_F8F8F8">#F8F8F8</color>
+    <color name="color_000000">#000000</color>
+    <color name="color_e0000000">#e3000000</color>
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_777777">#777777</color>
+    <color name="color_eeedf3">#eeedf3</color>
+    <color name="color_3c3c3c">#3c3c3c</color>
+    <color name="color_2e2e2e">#2c2c2e</color>
+    <color name="color_null">#00000000</color>
+    <color name="color_d2d2d2">#d2d2d2</color>
+    <color name="color_941a19">#914a19</color>
+    <color name="color_00ffff">#00ffff</color>
+    <color name="color_b0d3f4">#b0d3f4</color>
+    <color name="color_9a9a9c">#9a9a9c</color>
+    <color name="color_f7f8fa">#f7f8fa</color>
+    <color name="color_686868">#686868</color>
+
+
+    <!-- 网络未连接 -->
+    <color name="color_D9D9D9">#D9D9D9</color>
+    <color name="color_3000">#3000</color>
+    <color name="color_efefef">#efefef</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_e2e2e2">#e2e2e2</color>
+    <color name="color_f5f5f5">#f5f5f5</color>
+    <color name="color_5c5c5c">#5c5c5c</color>
+    <color name="color_D3D2D8">#D3D2D8</color>
+    <color name="color_C6D1F1">#C6D1F1</color>
+    <color name="color_EEEDF3">#EEEDF3</color>
+    <color name="color_82a0de">#82a0de</color>
+    <color name="color_c5c5c5">#c5c5c5</color>
+    <color name="color_007aff">#007aff</color>
+    <color name="color_adadad">#adadad</color>
+    <color name="color_e3e3e3">#e3e3e3</color>
+    <color name="color_c8c8c8">#c8c8c8</color>
+    <color name="color_868686">#868686</color>
+    <color name="color_F7F8FA">#F7F8FA</color>
+
+    <!-- settgins view add -->
+    <color name="color_364145">#364145</color>
+    <color name="color_A7ABAA">#A7ABAA</color>
+    <color name="color_F4F4F4">#F4F4F4</color>
+    <color name="color_565D5F">#565D5F</color>
+    <color name="color_AEB2B1">#AEB2B1</color>
+    <color name="color_FF750E">#FF750E</color>
+    <color name="color_88ABBA">#88ABBA</color><!--not used-->
+    <color name="color_3300">#3300</color>
+    <color name="transparent_background">#00ffffff</color>
+    <color name="color_20B2AA">#94D41E</color>
+    <color name="color_2f3132">#2f3132</color>
+
+    <color name="color_dialog_bg">#fafafa</color>
+    
+</resources>

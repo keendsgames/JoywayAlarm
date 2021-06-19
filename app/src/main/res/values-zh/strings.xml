@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--中文-->
+<resources>
+
+    <string name="tag_list_about_app">帮助</string>
+
+    <!-- settings view -->
+    <string name="settings_title">设置</string>
+    <string name="settings_phone_alert_time_length">手机报警时间</string>
+    <string name="settings_safe_distance">防丢范围</string>
+    <string name="settings_select_ringing">铃声选择</string>
+
+    <string name="settings_select_map">选择地图</string>
+    <string name="settings_select_gaode_map">高德地图（中国大陆）</string>
+    <string name="settings_select_google_map">谷歌地图（非中国大陆）</string>
+    <string name="settings_delete_this_tag">删除设备</string>
+    <string name="settings_phone_alert_time_length_10_second">10秒</string>
+    <string name="settings_phone_alert_time_length_2_minute">2分钟</string>
+    <string name="settings_phone_alert_time_length_always">一直</string>
+    <string name="settings_max_history_count">定位记录数量</string>
+    <string name="delete_this_tag_confirm_dialog_title">删除“%s” ？</string>
+    
+	<string name="alert_stopAlarm_body">点击“确定”关闭铃声</string>
+    <string name="alert_stopAlarm_title_outRange">%s 超出了安全距离</string>
+    <string name="alert_stopAlarm_title_tagWantFindPhone">%s 正在寻找手机</string>
+    <string name="alert_stopAlarm_title_tagLostConnection">%s 与手机断开了连接</string>
+    
+    <!-- 我的详细列表 -->
+
+    <string name="tag_detail_connection_state">链接状态</string>
+    <string name="tag_detail_signal_strength">信号强度</string>
+    <string name="tag_detail_distance">大概距离</string>
+    <string name="tag_detail_connection_state_yes">是</string>
+    <string name="tag_detail_connection_state_no">否</string>
+    <string name="tag_detail_distance_not_avaible">无</string>
+    <string name="tag_detail_call_tag">呼叫</string>
+    <string name="tag_detail_lost_sos">丢失</string>
+    <string name="tag_detail_location_records">记录</string>
+    <string name="tag_detail_turn_off_tag">关机</string>
+    <string name="have_turned_off_tag_notice">此防丢器已经关机。您可以按下防丢器的按钮重新开机。</string>
+    
+
+    <!-- 录音界面 -->
+    <string name="record_audio_start">点击开始录音</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="record_audio_audio_list">录音列表</string>
+
+    <!-- 录音界面 -->
+    <string name="record_audio_activity_title">录音</string>
+    <string name="play_audio_play">播放</string>
+
+    <!-- 设备信息 列表 -->
+    <string name="tag_list_item_disconnected_state_text">未连接</string>
+    <string name="tag_list_item_disconnecting_state_text">正在断开...</string>
+    <string name="tag_list_item_connected_state_text">已连接</string>
+    <string name="tag_list_item_connecting_state_text">正在连接...</string>
+
+    <!-- 搜索界面 -->
+
+    <string name="add_tag_notice_turn_bluetooth_on_part_01">请确保蓝牙</string>
+    <string name="add_tag_notice_turn_bluetooth_on_part_02">开启</string>
+    <string name="add_tag_notice_click_search_button_to_start">并点击“搜索”</string>
+    <string name="add_tag_btn_search_start">搜索</string>
+    <string name="add_tag_btn_search_stop">停止</string>
+    <string name="add_tag_notice_search_result_part_01">已搜索到</string>
+    <string name="add_tag_notice_search_result_part_02">个防丢器</string>
+    <string name="add_tag_notice_turn_on_tag">请按住防丢器按钮直到蓝灯闪烁</string>
+    <string name="meter">米</string>
+    <string name="add_tag_tag_is_added">添加成功</string>
+
+    <!-- 地图界面 -->
+    <string name="lost_history_tab_title_map">地图</string>
+    <string name="lost_history_tab_title_list">列表</string>
+    <string name="lost_history_activity_title">丢失地点</string>
+
+    <!-- 模式 -->
+
+    <string name="tag_button_function_take_picture">照相</string>
+    <string name="tag_button_function_find_phone">寻找手机</string>
+    <string name="tag_button_function_record_audio">录音</string>
+    <string name="tag_button_function_record_video">录像</string>
+    <string name="select_tag_button_function_dialog_title">防丢器按钮的功能</string>
+    <string name="add_tags">添加</string>
+    <string name="add_finished">完成</string>
+    <string name="change_devices_name">修改设备名称</string>
+    <string name="RunInBackground">在后台运行</string>
+    <string name="tag_is_deleted">%s 已被删除 !</string>
+    <string name="all_tags_are_deleted">已删除所有防丢器。</string>
+    <string name="tag_button_function_upload_phone_location">上传位置</string>
+    <string name="exit_app">退出APP</string>
+    <string name="exit_app_confirm_dialog_title">你想要 ？</string>
+    <string name="rename_name_empty">名字不能为空</string>
+    <string name="rename_faild">修改名字失败！</string>
+    <string name="showmessage_dialog_ok_text">确定</string>
+    <string name="tag_detail_stop_call_tag">停止呼叫</string>
+    <string name="turnoff_this_tag_confirm_dialog_title">将 %s 关机？</string>
+    <string name="history_activity_title">记录</string>
+    <string name="history_table_column_address">地址</string>
+    <string name="history_table_column_datetime">时间</string>
+    <string name="location_permission">*定位权限</string>
+    <string name="location_permission_denied">定位权限被拒绝</string>
+    <string name="failed_get_location_information">获取地址信息失败！</string>
+    <string name="failed_get_current_location">定位失败</string>
+    <string name="mapinfowindow_lostaddress">丢失地址</string>
+    <string name="mapinfowindow_losttime">丢失时间</string>
+    <string name="need_set_permissions_main_hint">没有权限</string>
+    <string name="read_write_permisson">读写数据的权限</string>
+    <string name="record_audio_permission">录音的权限</string>
+    <string name="tag_not_connected">设备未连接</string>
+    <string name="turnoff_detailed_msg">确定关机吗？</string>
+    <string name="turnoff_main_msg">关机</string>
+    <string name="whether_delete_data">是否删除此设备的所有数据？</string>
+    <string name="your_position">您的位置</string>
+    <string name="read_phone_state_permission">获取手机状态的权限</string>
+    <string name="can_not_use_photo_album">不能打开相册</string>
+    <string name="can_not_use_map">地图不可用</string>
+    <string name="can_not_use_camera">没有摄像头权限</string>
+    <string name="camera_permission_denied">还没有获得摄像头权限</string>
+    <string name="camera_permission">*摄像头权限</string>
+    <string name="camera_is_occupied">摄像头被占用，请稍后再试</string>
+    <string name="bluetooth_permission">*蓝牙权限</string>
+    <string name="album_permission_denied">没有获得访问相册的权限</string>
+    <string name="dialog_modify_head_camera_text">拍照替换头像</string>
+    <string name="dialog_modify_head_photo_album_text">相册</string>
+    <string name="current_positon">现在位置：</string>
+    <string name="tag_list_phone_alert_disabled">手机超距报警已关闭。</string>
+    <string name="tag_list_phone_alert_enabled">手机超距报警已打开。</string>
+    <string name="tag_list_far">远</string>
+    <string name="app_name">位儿防丢器</string>
+    <string name="tag_list_search_hint">" 输入名称搜索设备"</string>
+    <string name="tag_list_enable_locate">启用定位功能（将消耗更多电量）。</string>
+
+    <!--Q & A-->
+    <string name="help_question_1">1,如何开机？</string>
+    <string name="help_answer_1">* 按住设备按钮3秒，如果设备闪灯并发出滴滴声音，说明开机成功。</string>
+    <string name="help_question_2">2,如果判断设备是否已经开机？</string>
+    <string name="help_answer_2">* 短按按钮一次，如果设备闪灯，则说明已经处于开机状态。</string>
+    <string name="help_question_3">3,为什么app无法扫描设备？无法连接设备？</string>
+    <string name="help_answer_3">* 请确保手机的蓝牙和GPS定位功能已经打开。\n* 手机蓝牙工作异常，请重启手机的蓝牙再试试。\n* 如果你已经在手机的蓝牙设置里配对了设备，则app无法搜索和连接设备，请先从蓝牙设置里删除配对。\n* 设备距离手机太远。在添加设备的时候，请将设备与手机尽量靠近；蓝牙的信号距离只有几十米，超过这个极限，手机无法连接设备。</string>
+    <string name="help_question_4">4,为什么app需要这么多权限？</string>
+    <string name="help_answer_4">* 蓝牙：app使用蓝牙来扫描和连接设备，通过蓝牙信号来计算距离。\n* GPS定位: 当设备超出安全距离的时候，app需要将GPS定位的坐标保存起来，显示到地图里，协助用户找回丢失的物品。\n* 摄像头: 您可以使用摄像头给悬挂防丢器的物品拍照，作为app里物品的头像。\n* 相册: 可以从相册里选取照片作为头像。</string>
+    <string name="help_question_5">5,App在后台持续运行，使用GPS定位，会消耗很多电量吗？</string>
+    <string name="help_answer_5">* 会消耗一些电量，app和安卓系统已经针对耗电做了最大优化。\n* 当你确保物品处于安全位置，不需要防丢保护，可以关闭app来为手机省电。也可以不关闭app，而在app启动之后，只关闭手机的GPS定位功能来省电，这种情况下，app不会记录丢失/找回的地图坐标，仅仅在超过安全距离的时候报警提醒。</string>
+    <string name="help_question_6">6,当我使用3个防丢器来保护3个不同的物品，我可以关闭其中的某个防丢警报功能吗？</string>
+    <string name="help_answer_6">* 是的，app主页面里，每个防丢器后面都有一个单独的报警开关，您可通过它来关闭对应的防丢器防丢警报功能。</string>
+    <string name="help_question_7">7,为什么当app在后台运行的时候，超出安全距离，甚至蓝牙已经断开连接了，都没有报警提醒？</string>
+    <string name="help_answer_7">* 请允许app的所有权限。\n* 允许app在后台持续定位。\n* 对于小米手机，需要将app的“省电策略”设置为“无限制”。</string>
+    <string name="help_question_8">8，为什么在应用程序中单击“呼叫”按钮后，防丢器的喇叭没有响？ </string>
+    <string name="help_answer_8">* 防丢器在收到app发来的指令后，喇叭才会发出响声。因此，您需要四处走动让app显示更强的信号，然后app会自动连接防丢器，并发出呼叫命令。</string>
+    <string name="camera_click_tag_button_to_take_pictures">点击防丢器按钮，即可遥控拍照。</string>
+    <string name="camera_new_picture_is_saved_into_photo_album">新照片已保存到相册中。</string>
+    <string name="can_not_connect">无法连接！</string>
+    <string name="notification_sub_title">防忘记，防丢失，帮您找！</string>
+    <string name="alert_stopAlarm_title_tagFound">%s 被找到了</string>
+
+</resources>

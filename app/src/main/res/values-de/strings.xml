@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--德语-->
+<resources>
+
+    <string name="RunInBackground">Lauf im Hintergrund</string>
+
+    <string name="alert_stopAlarm_body">OK klicken und das Klingeln stoppen</string>
+    <string name="alert_stopAlarm_title_outRange">%s außerhalb der sicheren Reichweite</string>
+    <string name="alert_stopAlarm_title_tagWantFindPhone">%s will Ihr Telefon finden</string>
+    <string name="alert_stopAlarm_title_tagLostConnection">%s verlorene Verbindungen</string>
+
+    <string name="tag_list_about_app">Hilfe</string>
+
+    <!-- settings view -->
+    <string name="settings_title">Einstellungen</string>
+    <string name="settings_phone_alert_time_length">Telefon Weckzeit</string>
+    <string name="settings_safe_distance">Sicherer Abstand</string>
+    <string name="settings_select_ringing">Klingeln</string>
+
+    <string name="settings_select_map">Karte</string>
+    <string name="settings_select_gaode_map">Gaode Karte</string>
+    <string name="settings_select_google_map">Google Karte</string>
+    <string name="settings_delete_this_tag">Diesen Tag löschen</string>
+    <string name="settings_phone_alert_time_length_10_second">10s</string>
+    <string name="settings_phone_alert_time_length_2_minute">2min</string>
+    <string name="settings_phone_alert_time_length_always">Immer</string>
+
+    <string name="delete_this_tag_confirm_dialog_title">"%s" löschen?</string>
+
+    <!-- 我的详细列表 -->
+
+    <string name="tag_detail_connection_state">Verbunden</string>
+    <string name="tag_detail_signal_strength">Signal</string>
+    <string name="tag_detail_distance">Entfernung</string>
+    <string name="tag_detail_connection_state_yes">JA</string>
+    <string name="tag_detail_connection_state_no">NEIN</string>
+    <string name="tag_detail_distance_not_avaible">N/A</string>
+    <string name="tag_detail_call_tag">Anrufen</string>
+    <string name="tag_detail_turn_off_tag">Ausgeschaltet</string>
+    <string name="have_turned_off_tag_notice">Der Tag ist jetzt ausgeschaltet. Drücken Sie die Taste, um ihn einzuschalten.</string>
+
+    <!-- 录音界面 -->
+    <string name="record_audio_start">Audioaufnahme starten</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="save">Speichern</string>
+    <string name="record_audio_audio_list">Audios</string>
+
+    <!-- 录音界面 -->
+    <string name="record_audio_activity_title">Aufnehmen</string>
+    <string name="play_audio_play">Abspielen</string>
+
+    <!-- 设备信息 列表 -->
+    <string name="tag_list_item_disconnected_state_text">Getrennt</string>
+    <string name="tag_list_item_connected_state_text">Verbunden</string>
+    <string name="tag_list_enable_locate">Aktivieren Sie die Lokalisierungsfunktion (sie verbraucht mehr Strom).</string>
+
+    <!-- 搜索界面 -->
+
+    <string name="add_tag_notice_turn_bluetooth_on_part_01">Bluetooth einschalten</string>
+    <string name="add_tag_notice_turn_bluetooth_on_part_02">ON</string>
+    <string name="add_tag_notice_click_search_button_to_start">Zum Starten die Start-Taste drücken</string>
+    <string name="add_tag_btn_search_start">Suche</string>
+    <string name="add_tag_btn_search_stop">Stoppen</string>
+    <string name="add_tag_notice_search_result_part_01">Gefunden</string>
+    <string name="add_tag_notice_search_result_part_02">Tags</string>
+    <string name="add_tag_notice_turn_on_tag">Zum Einschalten die Taste am Tag drücken</string>
+    <string name="meter">m</string>
+    <string name="add_tag_tag_is_added">Tag hinzugefügt</string>
+
+    <!-- 地图界面 -->
+    <string name="lost_history_tab_title_map">Karte</string>
+    <string name="lost_history_tab_title_list">Liste</string>
+    <string name="lost_history_activity_title">Verlorener Ort</string>
+
+    <!-- 模式 -->
+
+    <string name="tag_button_function_take_picture">Foto machen</string>
+    <string name="tag_button_function_find_phone">Telefon finden</string>
+    <string name="tag_button_function_record_audio">Audio aufnehmen</string>
+    <string name="tag_button_function_record_video">Video aufnehmen</string>
+    <string name="select_tag_button_function_dialog_title">Funktion der Tag-Taste</string>
+    <string name="add_tags">Hinzufügen</string>
+    <string name="add_finished">Fertig!</string>
+    <string name="change_devices_name">Tag-Namen ändern</string>
+    <string name="tag_is_deleted">%s ist gelöscht!</string>
+    <string name="all_tags_are_deleted">Alle Tags sind gelöscht.</string>
+    <string name="tag_button_function_upload_phone_location">Ort hochladen</string>
+    <string name="exit_app_confirm_dialog_title">Wollen Sie ?</string>
+    <string name="exit_app">App beenden</string>
+    <string name="tag_list_item_connecting_state_text">Verbinden</string>
+    <string name="tag_list_item_disconnecting_state_text">Trennen</string>
+    <string name="tag_detail_lost_sos">Verloren</string>
+    <string name="settings_max_history_count">Max. Verlaufsanzahl</string>
+    <string name="tag_detail_location_records">Aufzeichnungen</string>
+    <string name="rename_name_empty">Der Name darf nicht leer sein</string>
+    <string name="rename_faild">Fehler beim Ändern des Namens!</string>
+    <string name="showmessage_dialog_ok_text">in Ordnung</string>
+    <string name="tag_detail_stop_call_tag">Hör auf anzurufen</string>
+    <string name="turnoff_this_tag_confirm_dialog_title">%s ausschalten?</string>
+    <string name="history_activity_title">Geschichte</string>
+    <string name="history_table_column_address">Adresse</string>
+    <string name="history_table_column_datetime">Terminzeit</string>
+    <string name="dialog_modify_head_camera_text">Machen Sie ein Foto, um den Avatar zu ändern</string>
+    <string name="dialog_modify_head_photo_album_text">Fotoalbum</string>
+    <string name="current_positon">Aktuelle Position:</string>
+    <string name="tag_list_phone_alert_disabled">Der Telefonalarm für das Verlassen des sicheren Bereichs ist deaktiviert.</string>
+    <string name="tag_list_phone_alert_enabled">Die Telefonwarnung zum Verlassen des sicheren Bereichs ist aktiviert.</string>
+    <string name="tag_not_connected">Tag ist nicht verbunden!</string>
+    <string name="tag_list_far">Weit</string>
+    <string name="turnoff_detailed_msg">Möchten Sie diesen Tracker wirklich ausschalten?</string>
+    <string name="turnoff_main_msg">Ausschalten</string>
+    <string name="whether_delete_data">Daten dieses Trackers löschen?</string>
+    <string name="your_position">Deine Position</string>
+    <string name="tag_list_search_hint">" Name eingeben, um Tags zu filtern"</string>
+    <string name="app_name">Joyway Alarm</string>
+    <string name="camera_click_tag_button_to_take_pictures">Klicken Sie auf die Schaltfläche \"Tracker\", um Bilder aufzunehmen.</string>
+    <string name="camera_new_picture_is_saved_into_photo_album">Ein neues Bild wird im Fotoalbum gespeichert.</string>
+    <string name="help_answer_1">* Halten Sie die Taste im Gerät länger als 3 Sekunden gedrückt. Wenn die LED-Anzeige 3 bis 4 Mal blinkt, bedeutet dies, dass sie erfolgreich eingeschaltet wurde.</string>
+    <string name="help_answer_2">* Klicken Sie auf die Schaltfläche im Gerät. Wenn die LED-Anzeige 1 bis 2 Mal blinkt, ist das Gerät bereits eingeschaltet.</string>
+    <string name="help_answer_3">* Bitte schalten Sie sowohl Bluetooth als auch Location (GPS) ein. * Bluetooth funktioniert nicht richtig, bitte starten Sie Bluetooth neu. * Sie haben das Gerät bereits in den Bluetooth-Einstellungen gekoppelt. Bitte koppeln Sie es. * Das Gerät ist zu weit vom Telefon entfernt. Stellen Sie es bitte in die Nähe des Telefons, während die App das Gerät sucht.</string>
+    <string name="help_answer_4">* Bluetooth: Die App verwendet Bluetooth, um das Gerät zu verbinden und die Verbindung ständig aufrechtzuerhalten. Es berechnet die Entfernung per Bluetooth. * Ort: Die App zeichnet auf, wo Sie Ihr Gerät verloren / gefunden haben. * Kamera: Sie können ein Foto Ihres Geräts aufnehmen, das an Ihren Wertsachen angebracht ist, um den Avatar dieses Geräts festzulegen. * Fotoalbum: Sie können ein Foto aus dem Fotoalbum auswählen, um den Geräte-Avatar festzulegen.</string>
+    <string name="help_answer_5">* Ja, es kostet etwas Strom, aber das Android-System hat seine Logik im Hintergrund verbessert, während wir GPS zum Auffinden verwenden. * Sie können die App schließen, wenn Sie sicher sind, dass sich Ihre Wertsachen in einem sicheren Zustand befinden. Oder Sie können die App starten und dann den GPS-Ortungsdienst Ihres Telefons ausschalten, um Energie zu sparen. Die App zeichnet keinen Fundort auf, alarmiert jedoch, wenn der Tracker überschritten wird voreingestellter Abstand.</string>
+    <string name="help_answer_6">* Ja, Sie können in der Geräteliste auf die Schaltfläche zum Umschalten klicken, um die Warnung des Telefons ein- und auszuschalten. Diese Warnung wird ausgelöst, wenn das Tag zu weit von der voreingestellten Entfernung entfernt ist oder die Bluetooth-Verbindung unterbrochen ist.</string>
+    <string name="help_answer_7">* Bitte akzeptieren Sie alle für die App erforderlichen Berechtigungen. * Aktivieren Sie die App, die im Hintergrund in den Einstellungen ausgeführt wird. * Im MIUI-System für XiaoMi- oder RedMi-Telefone finden Sie in der App die Option \"Batteriesparmodus\". Wechseln Sie unter \"MIUI-Batteriesparmodus\" zu \"Keine Einschränkungen\".</string>
+    <string name="help_answer_8">* Das Gerät piept erst, wenn es einen Befehl von der App erhält. Sie müssen also herumgehen, um ein stärkeres Bluetooth-Signal vom Gerät zu erhalten, und die App stellt automatisch eine Verbindung her und sendet einen Befehl, damit ein Piepton ertönt.</string>
+    <string name="help_question_1">1, Wie schalte ich das Gerät ein?</string>
+    <string name="help_question_2">2, Woher wissen, ob das Gerät eingeschaltet ist?</string>
+    <string name="help_question_3">3, warum kann Gerät nicht erfolgreich suchen oder verbinden?</string>
+    <string name="help_question_4">4, warum die App so viele Berechtigungen benötigt?</string>
+    <string name="help_question_5">5, Kostet die App viel Strom, da sie immer die Position im Hintergrund findet?</string>
+    <string name="help_question_6">6, ich benutze 3 Tags, um meine Wertsachen zu schützen. Kann ich den Alarm nur für einen von ihnen ausschalten?</string>
+    <string name="help_question_7">7, Warum warnt die App nicht, wenn die Entfernung den voreingestellten Bereich überschreitet oder sogar die Bluetooth-Verbindung unterbrochen wird?</string>
+    <string name="help_question_8">8, Warum piept das Gerät nicht, nachdem ich in der App auf die Schaltfläche \"Anrufen\" geklickt habe?</string>
+    <string name="album_permission_denied">Die Erlaubnis zum Fotoalbum wird verweigert.</string>
+    <string name="bluetooth_permission">* Bluetooth-Berechtigung</string>
+    <string name="camera_is_occupied">Die Telefonkamera ist besetzt, bitte versuchen Sie es später erneut</string>
+    <string name="camera_permission">* Kameraerlaubnis</string>
+    <string name="camera_permission_denied">Kameraberechtigungen werden verweigert!</string>
+    <string name="failed_get_location_information">Telefonstandortinformationen konnten nicht abgerufen werden!</string>
+    <string name="can_not_connect">Kann nicht verbinden!</string>
+    <string name="notification_sub_title">Nicht vergessen, nicht verloren, finde es!</string>
+    <string name="alert_stopAlarm_title_tagFound">%s wurde gefunden</string>
+
+
+</resources>
