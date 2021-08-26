@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/menu"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/Keen"
+            android:layout_width="147dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.59"
+            android:text="Tag Mac Status"
+            android:textColor="@android:color/holo_blue_bright" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.30"
+            android:text="Not Connected" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/tagimage"
+        android:layout_width="379dp"
+        android:layout_height="125dp"
+        android:src="@drawable/tagnormal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:weightSum="1"
+        android:id="@+id/promptln">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/prompt"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:text="Instructions:"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/mquest1a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alert: Double short clicks"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/mquest1b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reset: Long clicks"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/keen1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="www.keendesigns.webs.com"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/keen2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Panic Button"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="16sp" />
+
+</LinearLayout>
+
+
